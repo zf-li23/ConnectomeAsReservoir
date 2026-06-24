@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+*.so
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Output data (large binary files) ---
+# Keep the directory structure but ignore large data files
+output/connectome_processed.npz
+output/connectome_graph.pkl
+output/**/analysis_results.pkl
+output/**/correlation_data.csv
+output/**/correlation_results.pkl
+
+# --- Dataset pdf files (large, not generated) ---
+Ce_synapse/**/*.pdf
+
+# --- Publications (copyrighted) ---
+publications/*.pdf
+
+# --- Conda environment ---
+conda_env.yaml
+environment.yaml
+
+# --- Logs ---
+*.log
+*.tmp
