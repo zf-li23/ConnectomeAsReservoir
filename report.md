@@ -5,6 +5,8 @@
 > **Author**: Zhefu Li, School of Life Sciences, Tsinghua University, 2023011400
 >
 > **Course Topics**: Single Neuron Model (§2.2), Synaptic Model (§2.1), Cognitive Decision Model (§3.6, §4.2), Reservoir Computing (§2.2, §3.3–3.13), Working Memory (§3.3)
+>
+> **Github**: https://github.com/zf-li23/ConnectomeAsReservoir
 
 ---
 
